@@ -1,0 +1,22 @@
+<!--
+    Designed by GoldEyes - https://themeforest.net/user/goldeyes/portfolio -
+    Special for "Pera Creative Template" Users
+-->
+<svg width="820px" height="700px" viewBox="0 0 820 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#E7E7E7" fill-rule="nonzero" x="0" y="0" width="820" height="700"></rect>
+        <g transform="translate(355.000000, 295.000000)">
+            <circle stroke-opacity="0.3" stroke="#333" cx="55" cy="55" r="55"></circle>
+            <g transform="translate(355.000000, 295.000000)">
+                <path d="M110,55 C110,24.6277778 85.3722222,0 55,0" stroke="#3A3A3A"></path>
+                <animateTransform
+                    attributeName="transform"
+                    type="rotate"
+                    from="0 55 55"
+                    to="360 55 55"
+                    dur="1s"
+                    repeatCount="indefinite"/>
+            </g>
+        </g>
+    </g>
+</svg>
