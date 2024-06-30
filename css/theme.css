@@ -1129,10 +1129,15 @@
 	width: 100%;
 }
 
-.imageholder1 {
+/*.imageholder1 {
 	margin: 10px;
 	width: 100%;
 	margin-left: 15%;
+}*/
+.imageholder1 {
+	margin: 10px;
+	width: 100%;
+	margin-left: 25%;
 }
 
 .image01 {
@@ -1140,9 +1145,14 @@
 	position:relative;
 }
 
+/*.imageholder2 {
+	margin: 10px;
+	width: 100%;
+}*/
 .imageholder2 {
 	margin: 10px;
 	width: 100%;
+	margin-right: 25%;
 }
 
 .image02 {
