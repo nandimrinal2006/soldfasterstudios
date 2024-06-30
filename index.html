@@ -19,7 +19,39 @@
     <!-- Theme Styles -->
     <link rel="stylesheet" href="css/theme.css"/>
     <!-- End Page Styles -->
+    <script>
+    function setDivHeight() { //alert("hi");
+        var img = new Image();
+        img.src = 'images/testimonials_01.jpg';
+        img.onload = function() {
+            var div = document.getElementById('parallax_with_bg');
+            //div.style.height = img.height + 'px';
+            var aspectRatio = img.height / img.width;
+            var divWidth = div.offsetWidth;
+            var divHeight = (divWidth * aspectRatio) ;
+            
+            var div_parent = div.parentElement;
 
+            var div_main_child = document.getElementById('parallax_with_bg_innercontent'); 
+            if(div_main_child.offsetHeight > divHeight) {
+                divHeight = div_main_child.offsetHeight * 1.5;
+            }
+
+            if(div_parent.offsetHeight > divHeight) {
+                divHeight = div_parent.offsetHeight * 1;
+            }
+
+            div.style.height = divHeight + 'px';
+            div_parent.style.height = divHeight + 'px';
+
+
+        };
+
+    }
+
+    // Call the function when the window loads
+    window.onload = setDivHeight;
+</script>
 </head>
 
 <!-- BODY START -->
@@ -829,11 +861,11 @@
             data-anchor-target="#testimonials-051923"
             data-bottom-top="transform:translate3d(0, 0px, 0px);"
             data-top-bottom="transform:translate3d(0px, 0px, 0px);"
-            data-bg="images/testimonials_01.jpg"
+            data-bg="images/testimonials_01.jpg" id="parallax_with_bg"
             >
         </div>
         <!-- Container for design -->
-        <div class="container fs-100 fs-50-sm lh-80 lh-50-sm uppercase white font-secondary d-flex align-items-center flex-column">
+        <div class="container fs-100 fs-50-sm lh-80 lh-50-sm uppercase white font-secondary d-flex align-items-center flex-column" id="parallax_with_bg_innercontent">
             <!-- Line -->
             <div class="bg-blur bg-soft-dark3 px-15 pt-5 pb-0 mr-50">
                 <!-- Animated letters -->
@@ -1145,7 +1177,7 @@
             <!-- Row for bar cols -->
             <div class="row">
 				<div align="center">
-					<img src="images/Package.png">
+					<img src="images/Package.png" class="package-img-class">
 				</div>
                 <!-- Col for bar -->
         <!--        <a href="#" class="col-lg-3 col-sm-6 col-12 mt-40 t-center bg-gray1-hover py-50 px-30 px-15-sm slow-sm radius-lg">
