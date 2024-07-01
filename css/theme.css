@@ -1127,33 +1127,41 @@
 	margin-top: 20px;
 	position: relative;
 	width: 100%;
+	justify-content: center;
 }
 
 .onlyimageholder{
-	height: 250px;
+	height: 400px;
+	width: auto;
 	text-align: center;
 	vertical-align: middle;
 	display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
+/*.onlyimageholder figcaption {justify-content:center;}
+.onlyimageholder-left{ justify-content:right;}
+.onlyimageholder-right{ justify-content:left;}*/
+
 @media only screen and (max-width:1150px){ 
-	.onlyimageholder{height: 200px;} 	
+	.onlyimageholder{height: 350px;} 	
 }
 
 @media only screen and (max-width:925px){ 
-	.onlyimageholder{height: 165px;} 	
+	.onlyimageholder{height: 300px;} 	
 }
 @media only screen and (max-width:768px){ 
-	.onlyimageholder{height: 100px;} 	
+	.onlyimageholder{height: 250px;} 	
 }
 
 .imageholder1 {
 	margin: 10px;
-	width: 90%;
+	/*width: 100%;*/
+	max-width: 400px;
 	/*margin-left: 15%;*/
-	padding: 15%;
+	/*padding: 5%;*/
 	padding-right: 0;
 } 
 
@@ -1165,8 +1173,9 @@
 
 .imageholder2 {
 	margin: 10px;
-	width: 90%;	
-	padding: 15%;
+	/*width: 100%;*/
+	max-width: 400px;	
+	/*padding: 5%;*/
 	padding-left: 0;
 }
 
