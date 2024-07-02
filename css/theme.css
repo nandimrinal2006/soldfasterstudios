@@ -1203,3 +1203,15 @@
 .package-img-class{
 	max-width:100% ;
 }
+
+.work-item-with-text{ 
+  /*position: relative;*/
+  text-align: center;
+}
+
+.work-item-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
