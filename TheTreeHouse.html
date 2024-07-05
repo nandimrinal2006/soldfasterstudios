@@ -13,32 +13,36 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-	  
+    <link rel="stylesheet" href="css/style.css" />	  
+    <link rel="stylesheet" href="css/theme_clients.css"/>
+
+    <script src="js/common_script.js"></script>
   </head>
 <body>
 	
-    <header>
+  <header id="clienPagetHeader" class="clienPagetHeader">
 		<div class="logocontainer" align="center">
 			<div class="logologo">
 			<div class="logona">
                     <a href="index.html" class="logo">
                        <img src="images/Temporary Images/SoldFaster logo_dark.png" alt="website logo" class="logo-dark mxw-300">
-        			</a>
-				<div>
-          <img src="images/works/TheTreeHouse_Logo_small.png">   
-                        
-					<h1>The Tree House</h1>		
+        			          
+                      </a>
+				<div class="clientHeaderText">          
+          <br />
+          <img src="images/works/TheTreeHouse_Logo_small.png">  
+					<h1>The Tree House</h1>	
           Blue Water Properties Costa Rica
           <div class="white">The Tree House<br />
             27 de Abril, Costa Rica<br />
             Real Estate Listing</div>
-						
 				</div>
         	</div>
 			</div>	
 		</div>		
 	</header>
+
+  
     <main style="display: none;">
 		<section>
 			<div>
@@ -323,7 +327,9 @@
     </footer>
 
     <script src="js/script.js"></script>
-	
+    <script> 
+      createStickyHeaderForPage('clienPagetHeader','clienPagestickyHeader');
+    </script>
 	
   </body>
   </html>
