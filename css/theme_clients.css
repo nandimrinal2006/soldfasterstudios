@@ -1,0 +1,27 @@
+.clienPagetHeader {	
+  }
+  
+  .content {
+	/*padding: 16px;*/
+  }
+  
+  .clienPagestickyHeader {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 35px;
+  }
+
+  .clienPagestickyHeader .logologo img{
+	/*max-height: 100px;
+	width: auto;*/
+	display:none;
+  }
+
+  .clienPagestickyHeader .clientHeaderText h1{
+	font-size: 25px;
+  }
+  
+  .clienPagestickyHeader + .content {
+	/*padding-top: 102px;*/
+  }

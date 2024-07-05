@@ -14,18 +14,21 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-	  
+    <link rel="stylesheet" href="css/theme_clients.css"/>
+
+    <script src="js/common_script.js"></script>
+
   </head>
 <body>
 	
-    <header>
+    <header   id="clienPagetHeader" class="clienPagetHeader">
 		<div class="logocontainer" align="center">
 			<div class="logologo">
 			<div class="logona">
                     <a href="index.html" class="logo">
                        <img src="images/Temporary Images/SoldFaster logo_dark.png" alt="website logo" class="logo-dark mxw-300">
         			</a>
-				<div>
+				<div class="clientHeaderText">
 					<h1>Dunama</h1>		
 				</div>
         	</div>
@@ -316,7 +319,9 @@
     </footer>
 
     <script src="js/script.js"></script>
-	
+    <script> 
+      createStickyHeaderForPage('clienPagetHeader','clienPagestickyHeader');
+    </script>
 	
   </body>
   </html>

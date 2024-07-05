@@ -1214,4 +1214,25 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+}  
+
+.clienPagetHeader {
+	padding: 10px 16px;
+	background: #555;
+	color: #f1f1f1;
+  }
+  
+  .content {
+	/*padding: 16px;*/
+  }
+  
+  .clienPagestickyHeader {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100px;
+  }
+  
+  .clienPagestickyHeader + .content {
+	/*padding-top: 102px;*/
+  }
