@@ -18,6 +18,12 @@
 	display:none;
   }
 
+  .clienPagestickyHeader .white{
+    /*max-height: 100px;
+    width: auto;*/
+    display:none;
+    }
+
   .clienPagestickyHeader .clientHeaderText h1{
 	font-size: 25px;
   }
