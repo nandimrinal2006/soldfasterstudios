@@ -1,0 +1,4 @@
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/v9xw65cceslq/public_html/soldfasterstudios.com   # Add /<app_folder> if required
+        - /bin/cp * $DEPLOYPATH                        #copy all recursively to $DEPLOYPATH
