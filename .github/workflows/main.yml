@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.mazurstudios.com
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PWD }}
+        username: devusermz@mazurstudios.com
+        password: xujDnebyd0Np
